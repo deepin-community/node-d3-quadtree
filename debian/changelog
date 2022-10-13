@@ -1,0 +1,66 @@
+node-d3-quadtree (1.0.7-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + node-d3-quadtree: Add Multi-Arch: foreign.
+
+  [ Pirate Praveen ]
+  * Drop unused debian/webpack.config.js
+  * Use node-rollup-plugin-terser (now available in the archive)
+  * Bump Standards-Version to 4.5.1 (no changes needed)
+  * Add node-d3-array to !nocheck build profile
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 16 Dec 2020 14:23:46 +0530
+
+node-d3-quadtree (1.0.7-1) unstable; urgency=medium
+
+  * Team Upload
+
+  [ Abraham Raji ]
+  * New upstream version 1.0.7
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update standards version to 4.4.1, no changes needed.
+  * Changed install path to /usr/share/ in debian/install
+  * Added no root required
+  * Bump Standard Version to 4.5.0
+
+  [ Xavier Guimard ]
+  * Add debian/gbp.conf
+  * Use pkg-js-tools auto install
+
+ -- Abraham Raji <avronr@tuta.io>  Sun, 29 Mar 2020 23:10:05 +0000
+
+node-d3-quadtree (1.0.6-2) unstable; urgency=medium
+
+  * Reupload to unstable
+  * Make build reproducible
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 08 Jul 2019 15:07:38 +0530
+
+node-d3-quadtree (1.0.6-1) experimental; urgency=medium
+
+  * New upstream version 1.0.6
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.3.0 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Switch to rollup from webpack (rollup is in main now)
+  * Switch to pkg-js-tools for tests
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 19 Jun 2019 19:41:55 +0530
+
+node-d3-quadtree (1.0.3-2) unstable; urgency=medium
+
+  * Use webpack to build umd module like upstream
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 06 Jan 2018 14:37:32 +0530
+
+node-d3-quadtree (1.0.3-1) unstable; urgency=low
+
+  * Initial release (Closes: #877619)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 03 Oct 2017 19:44:15 +0530
