@@ -1,3 +1,39 @@
+node-d3-quadtree (1.0.7+~1.0.9-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.2, no changes needed.
+  * Embed typescript declarations and repack
+
+ -- Yadd <yadd@debian.org>  Sat, 09 Sep 2023 18:55:50 +0400
+
+node-d3-quadtree (1.0.7-4) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Yadd ]
+  * Fix filenamemangle
+  * Add fix for rollup 3 (Closes: #1022604)
+
+ -- Yadd <yadd@debian.org>  Wed, 26 Oct 2022 11:00:43 +0200
+
+node-d3-quadtree (1.0.7-3) unstable; urgency=medium
+
+  * Team upload
+
+  [ Yadd ]
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+
+  [ Paul Gevers ]
+  * Drop dependency on nodejs
+
+ -- Paul Gevers <elbrus@debian.org>  Sat, 02 Jul 2022 21:53:00 +0200
+
 node-d3-quadtree (1.0.7-2) unstable; urgency=medium
 
   [ Debian Janitor ]
